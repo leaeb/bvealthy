@@ -27,7 +27,7 @@ def read_data_from_database(db_file, table_name, columns):
     conn.close()
 
 # Beispielaufruf
-db_file = 'vegan_products.db'  # Pfad zur SQLite-Datenbankdatei
+db_file = './vegan_products.db'  # Pfad zur SQLite-Datenbankdatei
 table_name = 'products'  # Name der Tabelle in der Datenbank
 columns = ['id', 'name', 'ingredients']  # Liste der gewünschten Spaltennamen
 
